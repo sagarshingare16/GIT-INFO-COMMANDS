@@ -2,7 +2,7 @@
 
 git is a disctributed version control system(DVCS).</br>
 
-<h3>Types of version control system<h3></br>
+Types of version control system</br>
 1) Local Version Control System(VCS)</br>
 It is like code available on devloper machine which is accessible to dev only.<br>
 2) Centralized Version Control System(CVCS)</br>
@@ -19,7 +19,9 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 
 <h3>Configure git</h3>
 |git config --global --list    |list git configuration|
+|------------------------------|----------------------|
 |git config --global user.name |set username          |
+|------------------------------|----------------------|
 |git config --global user.email|set email             |
 
 <h3>Getting & Creating Projects</h3>
