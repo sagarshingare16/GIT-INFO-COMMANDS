@@ -21,6 +21,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 
 
 <h3>Configure git</h3>
+
 |Command|	Description|
 |------------|--------------|
 |git config --global --list |	list git configuration|
@@ -29,6 +30,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 
 
 <h3>Getting & Creating Projects</h3>
+
 |Command	|Description|
 |------------|--------------|
 |git init |  	Initialize a local Git repository|
@@ -36,6 +38,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 
 
 <h3>Basic Snapshotting commands<h3>
+  
 |Command|	Description|
 |------------|--------------|
 |git status|	check status|
@@ -48,6 +51,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 
 
 <h3>Inspection & Comparision</h3>
+
 |Command|	Description|
 |------------|--------------|
 |git log |	 view changes |
@@ -60,6 +64,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 
 
 <h3>Branching & Merging</h3>
+
 |Command |	Description|
 |------------|--------------|
 |git branch|	List branches (the asterisk denotes the current branch)|
