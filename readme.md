@@ -21,46 +21,45 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 
 
 <h3>Configure git</h3>
-
-|git config --global --list    |list git configuration|
-|------------------------------|----------------------|
-|git config --global user.name |set username          |
-|git config --global user.email|set email             |
+|Command|	Description|
+|------------|--------------|
+|git config --global --list |	list git configuration|
+|git config --global user.name|	set username|
+|git config --global user.email|	set email|
 
 
 <h3>Getting & Creating Projects</h3>
-
-|git init    |Initialize a local Git repository|
-|------------------------------|----------------------|
-|git init -b main |create local git branch named main if not specify then master default|
+|Command	|Description|
+|------------|--------------|
+|git init |  	Initialize a local Git repository|
+|git init -b main|	create local git branch named main if not specify then master default|
 
 
 <h3>Basic Snapshotting commands<h3>
-
-|git status | check status|
-|------------------------------|----------------------|
-|git add fileName.txt |to add into staging area|
-|git add .|to add all files present in current branch in staging area|
-|git commit -m "commit message"| to commit |
-|git rm -r fileName.txt| detele file|
-|git rm --cached fileName.txt | unstage file from .git|
-|git commit -a -m "commit message" | commiting without adding into staging area|
+|Command|	Description|
+|------------|--------------|
+|git status|	check status|
+|git add fileName.txt |	Add into staging area|
+|git add .|	Add all files present in current branch in staging area|
+|git commit -m "commit message"|	Add all files present in current branch in staging area|
+|git rm -r fileName.txt	|Detele file|
+|git rm --cached fileName.txt |	Unstage file from .git|
+|git commit -a -m "commit message" |	Commiting without adding into staging area |
 
 
 <h3>Inspection & Comparision</h3>
-
-|git log | view changes |
-|--------------|------------|
-|git log --summary | view changes(detailed)|
-|git log --online | view chnages(briefly)|
-|git log --graph | graph view |
-|git diff (sourse branch) (target branch) | preview changes before merging|
-|git diff | diff between modify and previous commit|
-|git diff --staged | diff with last commit & staged change | 
+|Command|	Description|
+|------------|--------------|
+|git log |	 view changes |
+|git log --summary |	view changes(detailed)|
+|git log --online | 	view chnages(briefly)|
+|git log --graph |	 graph view |
+|git diff (sourse branch) (target branch) | 	preview changes before merging|
+|git diff | 	diff between modify and previous commit|
+|git diff --staged |  	diff with last commit & staged change|
 
 
 <h3>Branching & Merging</h3>
-
 |Command |	Description|
 |------------|--------------|
 |git branch|	List branches (the asterisk denotes the current branch)|
@@ -90,7 +89,6 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 
 
 <h3>Sharing & Updating Projects to remote repository</h3>
-
 |Command |	Description|
 |------------|--------------|
 |git push origin [branch name]	|Push a branch to your remote repository|
@@ -103,6 +101,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 |git remote set-url origin ssh://git@github.com/[username]/[repository-name].git	|Set a repository's origin branch to SSH |
 |git merge [branch name] |	Merge a branch into the active branch |
 |git merge [source branch] [target branch]	|Merge a branch into a target branch |
+
 
 Note : First pull project from remote repository then merge then push it to remote.
 
