@@ -1,7 +1,5 @@
 <h1>This repository contains git information and git commands</h1>
 
-<h1>This repository contains git information and git commands</h1></br>
-
 git is a disctributed version control system(DVCS).</br>
 
 Types of version control system</br>
@@ -13,3 +11,9 @@ It is have central repository where multiple can contribute/share code on centra
 It is like combination of local + centralise i.e developer have copy of code on their machine and also on central repository.</br>
 
 <p>History of Git</p>
+Previously open source contribution was done by sending binaries and patches, Linus Torvalds started git in 2005 as bitkeeper stated charging.
+Previously default branch in git was master later it named to main.
+
+<p>Differnt Areas of Git</p>
+Local repo => Working Directory => Staging Area => commit Hostory => git => push => remote repositiry
+
