@@ -36,7 +36,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 |------------------------------|----------------------|
 |git add fileName.txt |to add into staging area|
 |git add .|to add all files present in current branch in staging area|
-|git commit -m |"commit message"|
+|git commit -m "commit message"| to commit |
 |git rm -r fileName.txt| detele file|
 |git rm --cached fileName.txt | unstage file from .git|
 |git commit -a -m "commit message" | commiting without adding into staging area|
