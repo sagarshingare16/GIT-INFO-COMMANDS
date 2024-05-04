@@ -72,3 +72,12 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 |git merge [branch name]	|Merge a branch into the active branch |
 |git merge [source branch] [target branch]	|Merge a branch into a target branch |
 
+<p>Setting up connection with remote repository(github)</p>
+1) Create remote repository
+2) Create local repository
+3) ssh-keygen -o [ssh of github remote repositiry] 
+4) copy id_rsa.pub into github
+5) git remote add origin [ssh]
+6) push -u origin [branch name]
+
+
