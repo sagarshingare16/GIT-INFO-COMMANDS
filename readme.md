@@ -36,7 +36,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 |git init |  	Initialize a local Git repository|
 |git init -b main|	create local git branch named main if not specify then master default|
 
-</br>
+
 <h3>Basic Commands</h3>
 
 |Command|	Description|
