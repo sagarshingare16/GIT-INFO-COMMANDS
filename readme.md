@@ -10,10 +10,10 @@ It is have central repository where multiple can contribute/share code on centra
 3) Disctributed Version Control System(DVCS)</br>
 It is like combination of local + centralise i.e developer have copy of code on their machine and also on central repository.</br>
 
-<p>History of Git</p>
+<h3>History of Git</h3>
 Previously open source contribution was done by sending binaries and patches, Linus Torvalds started git in 2005 as bitkeeper stated charging.
 Previously default branch in git was master later it named to main.
 
-<p>Differnt Areas of Git</p>
+<h3>Differnt Areas of Git</h3>
 Local repo => Working Directory => Staging Area => commit Hostory => git => push => remote repositiry
 
