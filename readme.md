@@ -31,9 +31,10 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 |git init -b main |create local git branch named main if not specify then master default|
 
 <h3>Basic Snapshotting commands<h3>
+
 |git status    |to check status|
 |------------------------------|----------------------|
-|git add fileName.txt |to add into staging area          |
+|git add fileName.txt |to add into staging area|
 |git add .|to add all files present in current branch in staging area|
 |git commit -m |"commit message"|
 |git rm -r fileName.txt| detele file|
