@@ -10,12 +10,15 @@ It is have central repository where multiple can contribute/share code on centra
 3) Disctributed Version Control System(DVCS)</br>
 It is like combination of local + centralise i.e developer have copy of code on their machine and also on central repository.</br>
 
+
 <h3>History of Git</h3>
 Previously open source contribution was done by sending binaries and patches, Linus Torvalds started git in 2005 as bitkeeper stated charging.
 Previously default branch in git was master later it named to main.
 
+
 <h3>Differnt Areas of Git</h3>
 Local repo => Working Directory => Staging Area => commit Hostory => git => push => remote repositiry
+
 
 <h3>Configure git</h3>
 
@@ -24,11 +27,13 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 |git config --global user.name |set username          |
 |git config --global user.email|set email             |
 
+
 <h3>Getting & Creating Projects</h3>
 
 |git init    |Initialize a local Git repository|
 |------------------------------|----------------------|
 |git init -b main |create local git branch named main if not specify then master default|
+
 
 <h3>Basic Snapshotting commands<h3>
 
@@ -41,6 +46,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 |git rm --cached fileName.txt | unstage file from .git|
 |git commit -a -m "commit message" | commiting without adding into staging area|
 
+
 <h3>Inspection & Comparision</h3>
 
 |git log | view changes |
@@ -51,6 +57,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 |git diff (sourse branch) (target branch) | preview changes before merging|
 |git diff | diff between modify and previous commit|
 |git diff --staged | diff with last commit & staged change | 
+
 
 <h3>Branching & Merging</h3>
 
@@ -72,6 +79,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 |git merge [branch name]	|Merge a branch into the active branch |
 |git merge [source branch] [target branch]	|Merge a branch into a target branch |
 
+
 <p>Setting up connection with remote repository(github)</p>
 1) Create remote repository</br>
 2) Create local repository</br>
@@ -79,6 +87,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 4) copy id_rsa.pub into github</br>
 5) git remote add origin [ssh]</br>
 6) push -u origin [branch name]</br>
+
 
 <h3>Sharing & Updating Projects to remote repository</h3>
 
@@ -110,7 +119,9 @@ Tag can be given to commit, repository.
 |git tag show	|list all tag|
 |git push origin v1.0.0 [tag name] 	| push with tag name|
 
+
 <p>Git rebase</p>
+
 
 <p>merge conflict</p>
 
@@ -118,6 +129,7 @@ Tag can be given to commit, repository.
 Going back to different version with commit checksum</br>
 git checkout chechsumId - this will result head will point to nowhere</br>
 create new branch then head will point to newly created branch.</br>
+
 
 <p>Git stash</p>
 if we are in other branch and writing code which not commited yet, and if we are going into some other branch then will get error to avoid error</br>
@@ -129,7 +141,9 @@ Command | Description|
 |git stasg list | list all with stash id|
 |git stash apply | Will get unsaved/uncommited changes|
 
+
 <p>Git Fork</p>
+
 
 <p>pull request</p>
 
