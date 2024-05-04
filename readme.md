@@ -18,6 +18,11 @@ Previously default branch in git was master later it named to main.
 Local repo => Working Directory => Staging Area => commit Hostory => git => push => remote repositiry
 
 <h3>Configure git</h3>
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
 |git config --global --list    |list git configuration|
 |------------------------------|----------------------|
 |git config --global user.name |set username          |
