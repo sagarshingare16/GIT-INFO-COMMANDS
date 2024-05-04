@@ -73,11 +73,30 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 |git merge [source branch] [target branch]	|Merge a branch into a target branch |
 
 <p>Setting up connection with remote repository(github)</p>
-1) Create remote repository
-2) Create local repository
-3) ssh-keygen -o [ssh of github remote repositiry] 
-4) copy id_rsa.pub into github
-5) git remote add origin [ssh]
-6) push -u origin [branch name]
+1) Create remote repository</br>
+2) Create local repository</br>
+3) ssh-keygen -o [ssh of github remote repositiry]</br>
+4) copy id_rsa.pub into github</br>
+5) git remote add origin [ssh]</br>
+6) push -u origin [branch name]</br>
+
+<h3>Sharing & Updating Projects to remote repository</h3>
+
+|Command |	Description|
+|------------|--------------|
+|git push origin [branch name]	|Push a branch to your remote repository|
+|git push -u origin [branch name]|	Push changes to remote repository (and remember the branch)|
+|git push	|Push changes to remote repository (remembered branch)|
+|git push origin --delete [branch name]|	Delete a remote branch|
+|git pull	|Update local repository to the newest commit|
+|git pull origin [branch name]|	Pull changes from remote repository|
+|git remote add origin ssh://git@github.com/[username]/[repository-name].git	|Add a remote repository|
+|git remote set-url origin ssh://git@github.com/[username]/[repository-name].git	|Set a repository's origin branch to SSH |
+|git merge [branch name] |	Merge a branch into the active branch |
+|git merge [source branch] [target branch]	|Merge a branch into a target branch |
+
+Note : First pull project from remote repository then merge then push it to remote.
+
+
 
 
