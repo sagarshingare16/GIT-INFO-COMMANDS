@@ -40,3 +40,15 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 |git rm -r fileName.txt| detele file|
 |git rm --cached fileName.txt | unstage file from .git|
 |git commit -a -m "commit message" | commiting without adding into staging area|
+
+<h3>Inspection & Comparision</h3>
+
+|git log | view changes |
+|--------------|------------|
+|git log --summary | view changes(detailed)|
+|git log --online | view chnages(briefly)|
+|git log --graph | graph view |
+|git diff (sourse branch) (target branch) | preview changes before merging|
+|git diff | diff between modify and previous commit|
+|git diff --staged | diff with last commit & staged change | 
+
