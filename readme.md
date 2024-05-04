@@ -39,15 +39,6 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 
 <h3>Basic Snapshotting commands<h3>
   
-|Command|	Description|
-|------------|--------------|
-|git status|	check status|
-|git add fileName.txt |	Add into staging area|
-|git add .|	Add all files present in current branch in staging area|
-|git commit -m "commit message"|	Add all files present in current branch in staging area|
-|git rm -r fileName.txt	|Detele file|
-|git rm --cached fileName.txt |	Unstage file from .git|
-|git commit -a -m "commit message" |	Commiting without adding into staging area |
 
 
 <h3>Inspection & Comparision</h3>
