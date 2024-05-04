@@ -37,6 +37,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 |git init -b main|	create local git branch named main if not specify then master default|
 
 </br>
+<h3>Basic Snapshotting commands<h3>
 |Command|	Description|
 |------------|--------------|
 |git status|	check status|
@@ -46,10 +47,6 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 |git rm -r fileName.txt	|Detele file|
 |git rm --cached fileName.txt |	Unstage file from .git|
 |git commit -a -m "commit message" |	Commiting without adding into staging area |
-
-<h3>Basic Snapshotting commands<h3>
-  
-
 
 <h3>Inspection & Comparision</h3>
 
