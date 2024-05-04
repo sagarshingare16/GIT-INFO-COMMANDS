@@ -94,6 +94,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 
 
 <h3>Sharing & Updating Projects to remote repository</h3>
+
 |Command |	Description|
 |------------|--------------|
 |git push origin [branch name]	|Push a branch to your remote repository|
@@ -132,8 +133,7 @@ Tag can be given to commit, repository.
 <p>Git time travel</p>
 Going back to different version with commit checksum</br>
 git checkout chechsumId - this will result head will point to nowhere</br>
-create new branch then head will point to newly created branch.</br>
-
+create new branch then head will point to newly created branch.</br></br>
 
 <p>Git stash</p>
 if we are in other branch and writing code which not commited yet, and if we are going into some other branch then will get error to avoid error</br>
