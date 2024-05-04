@@ -98,5 +98,35 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 Note : First pull project from remote repository then merge then push it to remote.
 
 
+<p>Git tag</p>
+1) Annotatated tag
+2) lightweight tag
+Tag can be given to commit, repository.
+
+|Command	|Description|
+|------------|--------------|
+|git tag|	tag info|
+|git tag -a -m [version v1.0.0] [tag name] |	give tag name to commit or repository|
+|git tag show	|list all tag|
+|git push origin v1.0.0 [tag name] 	| push with tag name|
+
+<p>Git rebase</p>
+
+<p>merge conflict</p>
+
+<p>Git time travel</p>
+Going back to different version with commit checksum 
+git checkout chechsumId - this will result head will point to nowhere
+create new branch then head will point to newly created branch.
+
+<p>Git stash</p>
+if we are in other branch and writing code which not commited yet, and if we are going into some other branch then will get error to avoid error</br>
+use stash command</br>
+
+Command | Description| 
+|------------|--------------|
+|git stash | Save temparary without commmiting|
+|git stasg list | list all with stash id|
+|git stash apply | Will get unsaved/uncommited changes|
 
 
