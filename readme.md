@@ -37,7 +37,7 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 |git init -b main|	create local git branch named main if not specify then master default|
 
 </br>
-
+<p>Basic Commands</p>
 
 |Command|	Description|
 |------------|--------------|
@@ -135,7 +135,7 @@ git checkout chechsumId - this will result head will point to nowhere</br>
 create new branch then head will point to newly created branch.</br></br>
 
 <p>Git stash</p>
-if we are in other branch and writing code which not commited yet, and if we are going into some other branch then will get error to avoid error</br>
+if we are in other branch and writing code which not commited yet, and if we are going into some other branch then will get error to avoid error
 use stash command</br>
 
 Command | Description| 
