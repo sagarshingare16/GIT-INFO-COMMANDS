@@ -115,9 +115,9 @@ Tag can be given to commit, repository.
 <p>merge conflict</p>
 
 <p>Git time travel</p>
-Going back to different version with commit checksum 
-git checkout chechsumId - this will result head will point to nowhere
-create new branch then head will point to newly created branch.
+Going back to different version with commit checksum</br>
+git checkout chechsumId - this will result head will point to nowhere</br>
+create new branch then head will point to newly created branch.</br>
 
 <p>Git stash</p>
 if we are in other branch and writing code which not commited yet, and if we are going into some other branch then will get error to avoid error</br>
@@ -129,4 +129,7 @@ Command | Description|
 |git stasg list | list all with stash id|
 |git stash apply | Will get unsaved/uncommited changes|
 
+<p>Git Fork</p>
+
+<p>pull request</p>
 
