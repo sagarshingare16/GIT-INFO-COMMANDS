@@ -19,10 +19,13 @@ Local repo => Working Directory => Staging Area => commit Hostory => git => push
 
 <h3>Configure git</h3>
 
-
 |git config --global --list    |list git configuration|
 |------------------------------|----------------------|
 |git config --global user.name |set username          |
 |git config --global user.email|set email             |
 
 <h3>Getting & Creating Projects</h3>
+
+|git init    |Initialize a local Git repository|
+|------------------------------|----------------------|
+|git init -b main |create local git branch named main if not specify then master default|
